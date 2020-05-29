@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.2
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: May 29, 2020 at 11:06 AM
+- Server version: 10.4.11-MariaDB
+- PHP Version: 7.4.6
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="stm" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="students">
+                CREATE TABLE `students` (
+                  `roll_no` int(100) NOT NULL,
+                  `name` varchar(100) NOT NULL,
+                  `email` varchar(100) NOT NULL,
+                  `gender` varchar(100) NOT NULL,
+                  `contact` varchar(100) NOT NULL,
+                  `dob` varchar(100) NOT NULL,
+                  `address` varchar(200) NOT NULL,
+                  PRIMARY KEY (`roll_no`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'stm'
+    -->
+    <database name="stm">
+        <!-- Table students -->
+        <table name="students">
+            <column name="roll_no">1</column>
+            <column name="name">Devika Lal</column>
+            <column name="email">devika@gmail.com</column>
+            <column name="gender">female</column>
+            <column name="contact">123456</column>
+            <column name="dob">1-1-2000</column>
+            <column name="address">S4 IT, CUCEK(CUSAT)
+</column>
+        </table>
+        <table name="students">
+            <column name="roll_no">2</column>
+            <column name="name">Irene Paul</column>
+            <column name="email">irene@gmail.com</column>
+            <column name="gender">female</column>
+            <column name="contact">78901</column>
+            <column name="dob">1-2-2000</column>
+            <column name="address">S4 IT CUCEK(CUSAT)
+</column>
+        </table>
+        <table name="students">
+            <column name="roll_no">3</column>
+            <column name="name">Neeraja Rajan</column>
+            <column name="email">neeraja@gmail.com</column>
+            <column name="gender">female</column>
+            <column name="contact">231456</column>
+            <column name="dob">12-3-2000</column>
+            <column name="address">S4 IT CUCEK(CUSAT)
+</column>
+        </table>
+        <table name="students">
+            <column name="roll_no">4</column>
+            <column name="name">Nisha A</column>
+            <column name="email">nisha@gmail.com</column>
+            <column name="gender">female</column>
+            <column name="contact">67854</column>
+            <column name="dob">2-3-2000</column>
+            <column name="address">S4 IT CUCEK(CUSAT)
+</column>
+        </table>
+        <table name="students">
+            <column name="roll_no">5</column>
+            <column name="name">Nivya Prakash</column>
+            <column name="email">nivya@gmail.com</column>
+            <column name="gender">female</column>
+            <column name="contact">564376</column>
+            <column name="dob">12-4-2000</column>
+            <column name="address">S4 IT CUCEK(CUSAT)
+</column>
+        </table>
+        <table name="students">
+            <column name="roll_no">6</column>
+            <column name="name">Philona Reeetha </column>
+            <column name="email">philona@gmail.com</column>
+            <column name="gender">female</column>
+            <column name="contact">2314325</column>
+            <column name="dob">20-4-2000</column>
+            <column name="address">S4 IT CUCEK(CUSAT)
+
+</column>
+        </table>
+        <table name="students">
+            <column name="roll_no">7</column>
+            <column name="name">Sreya S Raj</column>
+            <column name="email">sreya@gmail.com</column>
+            <column name="gender">female</column>
+            <column name="contact">2134245</column>
+            <column name="dob">3-5-2000</column>
+            <column name="address">S4 IT CUCEK(CUSAT)
+</column>
+        </table>
+    </database>
+</pma_xml_export>
